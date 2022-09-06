@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar color="secondary" >
+    <ion-title class="ion-text-center" >Perfil Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Perfil</ion-card-title>
+    </ion-card-header>
+    <ion-card-content *ngFor="let datos of lista " >
+      <label>{{ datos.nombre }}</label>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
